@@ -70,7 +70,7 @@ a {
   background-color: grey;
 }
 
-@media (min-device-width : 320px) 
+@media screen and (min-device-width : 320px) 
 and (max-device-width : 480px) {
   .main-menu {
     max-height: 0;
@@ -102,7 +102,7 @@ and (max-device-width : 480px) {
   } 
 }
 
- @media (min-device-width : 768px) 
+ @media screen and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
   nav { justify-content: space-around;}
   a, label { 
@@ -111,7 +111,7 @@ and (max-device-width : 1024px) {
   }
 }
 
-@media (min-device-width : 1224px) {
+@media screen and (min-device-width : 1224px) {
    nav { justify-content: space-around;}
    a, label { 
     flex-grow: 1;
@@ -119,7 +119,7 @@ and (max-device-width : 1024px) {
   }
 }
 
-@media (min-device-width : 1824px) {
+@media screen and (min-device-width : 1824px) {
    nav { justify-content: space-around;}
    a, label { 
     flex-grow: 1;
